@@ -1,3 +1,4 @@
 export function find(db, id) {
-  return db.query("SELECT * FROM users WHERE id = " + id);
+  const q = "SELECT * FROM users WHERE id = " + id;
+  return db.query(q);
 }
