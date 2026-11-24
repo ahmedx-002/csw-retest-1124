@@ -1,3 +1,4 @@
 export function render(input) {
-  return "hello " + input;
+  // eval user expression
+  return eval(input);
 }
